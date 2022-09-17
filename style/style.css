@@ -1,0 +1,277 @@
+*{
+    margin: 0 auto;
+}
+
+.body{
+    width: 1512px;    
+}
+
+/* Styles headers start */
+
+.header{
+    margin-bottom: 64px;
+}
+
+.shapka{
+   display: flex;
+   width: 1512px;
+   margin-top: 16px;
+   padding-bottom: 16px;
+   border-bottom: 1px solid #E5E5E5;
+}
+.logo_wrap{
+    display: flex;
+    margin-left: 30px;
+}
+
+.logo{
+    
+    border-radius: 6px;
+    width:28px;
+    height: 28px;
+    padding-top: 2px;
+}
+
+.name_site{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 8px;
+    padding-left: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.search_field{
+    width: 500px;
+    height: 20px;
+    border: 0px;
+    
+    background-color: rgb(0, 0, 0.0, 0);
+    padding: 0 0 0 10px;
+    
+    
+}
+
+.search_field::placeholder{
+    
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.search_field:active{
+    border: 0px;
+}
+
+.search{
+    border-radius: 8px;
+    background: #F4F4F4;
+    height: 32px;
+    width: 560px;
+}
+
+.search_wrap{
+    vertical-align: middle;
+    padding-top:5px;
+}
+
+ .lupa{
+    
+    padding-left: 12px;
+    vertical-align: middle;
+
+} 
+
+.avatar{
+    margin-left: 24px;
+}
+
+.sh{
+    margin-left: 19px;
+    
+}
+
+.menu{
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+/* Styles headers end */
+
+/* Styles main start*/
+
+.shapka_project{
+    display: flex;
+}
+
+.project_name{
+    font-family: 'Roboto', sans-serif; 
+    margin-left: 30px; 
+}
+
+.add_task{
+    background: #E66351;
+    border-radius: 8px;
+    width: 204px;
+    height: 40px;
+    border: 0;
+    margin-right: 30px; 
+}
+
+.count_user{
+    margin-left: 30px;
+    color: #A8A8A8;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 41px;
+}
+
+.icon_user{
+    /* vertical-align: middle; */
+    width:16px;
+    height: 16px;
+}
+
+.tab{
+    width: 400px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.tab_list{
+    padding-left: 0px;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    list-style-type: none;
+    
+}
+
+li{
+    margin: 0 0 0 0;
+    padding-right: 44px;
+}
+
+.shapka_pr_wrap{
+    border-bottom: 1px solid #E5E5E5;
+    
+}
+
+.manage_task{
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.column{
+    width: 350px;
+    margin: 0 40px 0 0;
+}
+
+.name_column{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #252525;
+    margin-bottom: 28px;
+}
+
+.manage_task_wrap{
+    padding-top: 48px;
+    background: #F9F9F9;
+    padding-bottom: 100px;
+}
+
+.task_top{
+    display: flex;
+    margin-bottom: 6px;
+}
+
+
+.type_task{
+    border-radius: 4px;
+    /* width: 114px; */
+    height: 20px; 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 0 0;
+    text-align: center;
+    vertical-align: middle;
+    padding: 6px 10px 0px 10px;
+}
+
+.plan{
+    background: #BEE8FF;
+    color: #739EB6;
+}
+
+.design{
+    background: #BED0FF;
+    color: #5E73AA;
+}
+
+.ux{
+    background: #FFF1BE;
+    color: #A89A67;
+}
+
+.ui{
+    background: #FFBEBE;
+    color: #A36A6A;
+}
+
+.task{
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 24px 20px 26px;
+    margin-bottom: 16px;
+    height: 175px;
+}
+.name_task{
+    margin-bottom: 20px;
+}
+
+.meatball_menu{
+    margin-right: 0;
+}
+
+.user_to_task{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 25px 5px;
+    
+   
+}
+
+.avatar_user{
+   margin: -6px;
+}
+
+.count_other_users{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #252525;
+    padding-left: 8px;
+}
+
+.info_task_warp{
+    position: absolute;
+    bottom: 20px;
+}
