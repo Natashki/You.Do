@@ -6,6 +6,10 @@
     width: 1512px;    
 }
 
+input:focus{
+    outline: none;
+}
+
 /* Styles headers start */
 
 .header{
@@ -37,7 +41,7 @@
     padding-top: 8px;
     padding-left: 12px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 14px;
     line-height: 17px;
 }
@@ -93,6 +97,9 @@
     
 }
 
+.butt:hover{
+    opacity:75%;
+}
 .menu{
     vertical-align: middle;
     margin-right: 30px;
@@ -118,6 +125,14 @@
     height: 40px;
     border: 0;
     margin-right: 30px; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.add_task:hover{
+    background: #dd8378;
 }
 
 .count_user{
@@ -140,23 +155,36 @@
 .tab{
     width: 400px;
     margin-left: 30px;
-    margin-bottom: 10px;
+    
+}
+
+.tab_item:hover{
+    color:#3b3b3b;
 }
 .tab_list{
     padding-left: 0px;
     display:flex;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 14px;
     line-height: 120%;
     list-style-type: none;
+    margin-bottom: 6px;
     
 }
 
 li{
     margin: 0 0 0 0;
     padding-right: 44px;
+}
+
+.active_tab{
+    background-color:  #E66351;
+    width: 43px;
+    height: 3px;
+    margin: 0 0 0 0;
+    border-radius: 2px 2px 0px 0px;;
 }
 
 .shapka_pr_wrap{
@@ -178,7 +206,7 @@ li{
 .name_column{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 800;
     font-size: 14px;
     line-height: 17px;
     color: #252525;
@@ -239,6 +267,10 @@ li{
     padding: 20px 24px 20px 26px;
     margin-bottom: 16px;
     height: 175px;
+}
+
+.task:hover{
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.07), 0px 0.8px 3.575px rgba(0, 0, 0, 0.035);
 }
 .name_task{
     margin-bottom: 20px;
