@@ -116,6 +116,26 @@ input:focus{
 .project_name{
     font-family: 'Roboto', sans-serif; 
     margin-left: 30px; 
+    
+}
+
+.wrap_name_proj{
+    display: flex;
+    margin: 0 0 0 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.status_project{
+    border-radius: 5px;
+    height: 20px;
+    padding: 0 5px 0 5px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+
+.progress{
+    background: rgb(158, 255, 158);
+    color: rgb(16, 168, 16);
 }
 
 .add_task{
@@ -301,6 +321,10 @@ li{
 
 .avatar_user{
    margin: -6px;
+}
+
+.avatar_user:hover{
+    z-index: 2;
 }
 
 .count_other_users{
