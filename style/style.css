@@ -231,7 +231,7 @@ li{
     height: 20px; 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 12px;
     line-height: 15px;
     margin: 0 0 0 0;
@@ -258,6 +258,15 @@ li{
 .ui{
     background: #FFBEBE;
     color: #A36A6A;
+}
+
+.date_stamp{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    color: #A8A8A8;
 }
 
 .task{
@@ -297,7 +306,7 @@ li{
 .count_other_users{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 120%;
     color: #252525;
@@ -308,3 +317,11 @@ li{
     position: absolute;
     bottom: 20px;
 }
+
+/* Styles main end */
+
+/* styles footer start */
+.sign{
+    text-align: center;
+}
+/* styles footer end */
