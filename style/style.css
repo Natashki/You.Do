@@ -128,14 +128,18 @@ input:focus{
 .status_project{
     border-radius: 5px;
     height: 20px;
-    padding: 0 5px 0 5px;
+    padding: 5px 5px 0 5px;
     margin-left: 10px;
     margin-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
 }
 
 .progress{
-    background: rgb(158, 255, 158);
-    color: rgb(16, 168, 16);
+    background: #C7FFBE;
+    color: #62B452;
 }
 
 .add_task{
