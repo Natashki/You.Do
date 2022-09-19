@@ -126,7 +126,7 @@ input:focus{
 }
 
 .status_project{
-    border-radius: 5px;
+    border-radius: 4px;
     height: 20px;
     padding: 5px 5px 0 5px;
     margin-left: 10px;
@@ -160,6 +160,8 @@ input:focus{
 }
 
 .count_user{
+    display: flex;
+    width: 110px;
     margin-left: 30px;
     color: #A8A8A8;
     font-family: 'Roboto', sans-serif;
@@ -285,12 +287,20 @@ li{
 }
 
 .date_stamp{
+    display: flex;
+    width: 50px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 120%;
     color: #A8A8A8;
+    margin: 0;
+}
+
+.date{
+    margin-left: 5px;
+    padding-top: 3px;
 }
 
 .task{
