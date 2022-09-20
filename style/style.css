@@ -90,10 +90,16 @@ input:focus{
 
 .avatar{
     margin-left: 24px;
+
+
 }
 
+.bell{
+    margin-bottom: 5px;
+}
 .sh{
     margin-left: 19px;
+    margin-bottom: 6px;
     
 }
 
@@ -128,7 +134,7 @@ input:focus{
 .status_project{
     border-radius: 4px;
     height: 20px;
-    padding: 5px 5px 0 5px;
+    padding: 5px 10px 0 10px;
     margin-left: 10px;
     margin-top: 12px;
     font-style: normal;
@@ -177,6 +183,15 @@ input:focus{
     width:16px;
     height: 16px;
 }
+
+.wrap_tab{
+    display: flex;
+}
+
+.icon_view_task{
+    margin-right: 30px;
+}
+
 
 .tab{
     width: 400px;
@@ -228,6 +243,12 @@ li{
     width: 350px;
     margin: 0 40px 0 0;
 }
+
+.done{
+    margin-right: 30px;
+}
+
+
 
 .name_column{
     font-family: 'Roboto', sans-serif;
